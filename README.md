@@ -134,14 +134,14 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=BBahtiri&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
----
+
 
 📈 **Contribution Graph**
 <p align="center">
   <img src="https://ghchart.rshah.org/BBahtiri" alt="BBahtiri's Contribution Graph" />
   </p>
 
----
+
 
 📫 **How to Reach Me**
 
