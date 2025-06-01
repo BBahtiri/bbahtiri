@@ -87,7 +87,7 @@
 </details>
 
 <details>
-  <summary><strong>3. Crack Detection in Electromechanical Materials using U-Net</strong></summary>
+  <summary><strong>3. Crack Detection in Electromechanical Materials using U-Net (Computer Vision)</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Applied deep learning (U-Net with ResNet backbones) for semantic segmentation of crack propagation in materials under electromechanical stress, analyzing phase-field and electrical potential patterns from FEM simulations.</li>
@@ -99,7 +99,7 @@
 </details>
 
 <details>
-  <summary><strong>4. Predictive Maintenance System for Manufacturing</strong></summary>
+  <summary><strong>4. Predictive Maintenance System for Manufacturing using machine learning</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Developed a machine learning system to predict 5 different types of equipment failures (TWF, HDF, PWF, OSF, No Failure) in manufacturing environments using sensor data, enabling proactive maintenance.</li>
