@@ -1,5 +1,4 @@
 <div id="header" align="center">
-  <img src="[your-banner-or-gif-url-here]" alt="A custom banner or GIF related to PINNs, FEM, Data Science, or Computer Vision" width="800"/>
   <h1>Hi there, I'm Betim (BBahtiri) 👋</h1>
 </div>
 
