@@ -147,9 +147,10 @@
 * **Email:** `betimbahtiri@outlook.de`
 * **LinkedIn:** [Dr.-Ing. Betim Bahtiri](https://www.linkedin.com/in/dr-ing-betim-bahtiri-4852ab242)
 * Feel free to open an issue on any of my repositories if you have questions or want to collaborate!
+* The projects are not related to my current employer !
 
 <div align="center">
   <p>
-    <em>Thanks for stopping by! Connect with me to explore collaborations and innovative ideas.</em>
+    <em>Thanks for stopping by! Connect with me to explore collaborations and innovative ideas. </em>
   </p>
 </div>
