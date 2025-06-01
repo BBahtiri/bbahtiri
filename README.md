@@ -65,7 +65,7 @@
   <br>
   <ul>
     <li><strong>Objective:</strong> Implemented a sophisticated finite element model combining traditional constitutive laws with LSTM neural networks to simulate complex material behavior in epoxy nanocomposites under cyclic loading, considering moisture and nanoparticle effects.</li>
-    <li><strong>Tech Stack:</strong> C++, deal.II (FEM Library), Python (for ML aspects, presumably), MPI, CMake.</li>
+    <li><strong>Tech Stack:</strong> C++, deal.II (FEM Library), Python (for ML aspects), MPI, CMake.</li>
     <li><strong>Key Contributions:</strong> Developed a hybrid ML-FEM framework for large deformation solid mechanics, integrated LSTM for computational acceleration, modeled multi-network viscoelastic-viscoplasticity with damage, and incorporated environmental effects.</li>
     <li><strong>Outcome/Impact:</strong> Created a robust model for simulating advanced material responses, published in Computer Methods in Applied Mechanics and Engineering. Showcased seamless switching between physics-based and ML models.</li>
     <li><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.cma.2023.116293" target="_blank">10.1016/j.cma.2023.116293</a></li>
