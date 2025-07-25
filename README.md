@@ -87,7 +87,19 @@
 </details>
 
 <details>
-  <summary><strong>3. Crack Detection in Electromechanical Materials using U-Net (Computer Vision)</strong></summary>
+  <summary><strong>3. GNN Force Field for Coarse-Grained Molecular Dynamics</strong></summary>
+  <br>
+  <ul>
+    <li><strong>Objective:</strong> To develop a deep learning model capable of predicting atomic forces in coarse-grained molecular dynamics (MD) simulations, creating a fast and accurate surrogate for traditional, computationally expensive force fields.</li>
+    <li><strong>Tech Stack:</strong> Python, PyTorch, PyTorch Geometric, Pandas, NumPy, Scikit-learn.</li>
+    <li><strong>Key Contributions:</strong> Implemented a Graph Neural Network (GNN) inspired by the state-of-the-art GNNFF architecture. Engineered a rotationally covariant force prediction module that learns scalar force magnitudes and projects them onto direction vectors, ensuring physical consistency. Developed a robust data pipeline including dynamic outlier filtering and Z-score normalization to handle noisy simulation data.</li>
+    <li><strong>Outcome/Impact:</strong> Created a complete, end-to-end pipeline for training a GNN-based force field that can significantly accelerate MD simulations of polymer systems, bridging the gap between the speed of classical potentials and the accuracy of <em>ab initio</em> methods.</li>
+    <li><strong>Repository:</strong> <a href="https://github.com/BBahtiri/gnn-cg-peo-forcefield" target="_blank">gnn-cg-peo-forcefield</a></li>
+    <li><p align="center"><img src="https://raw.githubusercontent.com/BBahtiri/gnn-cg-peo-forcefield/main/results/parity_plot.png" alt="GNN Force Field Parity Plot" width="500"/></p> </ul>
+</details>
+
+<details>
+  <summary><strong>4. Crack Detection in Electromechanical Materials using U-Net (Computer Vision)</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Applied deep learning (U-Net with ResNet backbones) for semantic segmentation of crack propagation in materials under electromechanical stress, analyzing phase-field and electrical potential patterns from FEM simulations.</li>
@@ -99,7 +111,7 @@
 </details>
 
 <details>
-  <summary><strong>4. Predictive Maintenance System for Manufacturing using machine learning</strong></summary>
+  <summary><strong>5. Predictive Maintenance System for Manufacturing using machine learning</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Developed a machine learning system to predict 5 different types of equipment failures (TWF, HDF, PWF, OSF, No Failure) in manufacturing environments using sensor data, enabling proactive maintenance.</li>
@@ -111,7 +123,7 @@
 </details>
 
 <details>
-  <summary><strong>5. ABAQUS Multiphysics Diffusion UEL</strong></summary>
+  <summary><strong>6. ABAQUS Multiphysics Diffusion UEL</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Implemented a User Element (UEL) for ABAQUS to simulate coupled hydro-mechanical behavior of moisture diffusion in polymer materials, capturing stress-assisted transport mechanisms.</li>
