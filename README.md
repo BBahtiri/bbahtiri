@@ -87,7 +87,37 @@
 </details>
 
 <details>
-  <summary><strong>3. GNN Force Field for Coarse-Grained Molecular Dynamics</strong></summary>
+  <summary><strong>3. Physics-informed neural network (PINN) for Hyperelastic Solid Mechanics</strong></summary>
+  <br>
+  <ul>
+    <li><strong>Objective:</strong> The project simulates a quasi-static tensile test on a hyperelastic dog-bone specimen, showcasing a powerful, mesh-free approach to solving complex non-linear partial differential equations (PDEs) in computational mechanics.</li>
+    <li><strong>Tech Stack:</strong> Python, Deep Learning (LSTM, Feed-Forward Neural Networks), Experimental Data Analysis.</li>
+    <li><strong>Key Contributions:</strong> The core methodology transforms the PDE problem into an optimization task. A neural network is trained to approximate the displacement field, and the loss function is engineered to penalize any violation of the underlying physical laws and boundary conditions.The simulation solves the static equilibrium equation in its strong form for a dogbone specimen. The model is verified using FEM simulations </li>
+    <li><strong>Outcome/Impact:</strong> Developed a PINN model to solve the strong form for mechanical equilibrium for a dogbone specimen and verified against finite elements simulations.</li>
+    <li><strong>Repository:</strong> <a href="https://github.com/BBahtiri/PINN_Solid-Mechanics-DogBone-Specimen" target="_blank">[Link to Project Repository]</a></li>
+     <li><p align="center"><img src="https://raw.githubusercontent.com/BBahtiri/PINN_Solid-Mechanics-DogBone-Specimen/main/PINN_Overview.png" alt="PINN Architecture" width="500"/></p> </ul>
+</details>
+
+<details>
+  <summary><strong>4. Variational Physics-Informed Neural Network (VPINN) for 2D Elasticity</strong></summary>
+  <br>
+  <ul>
+    <li><strong>Objective:</strong> To solve a 2D linear elasticity problem (plane stress) for a square plate under uniaxial tension. This project demonstrates how VPINNs can solve the weak form of PDEs without traditional FEM meshing.</li>
+    <li><strong>Tech Stack:</strong> Python, PyTorch, NumPy, SciPy, Matplotlib.</li>
+    <li><strong>Key Contributions:</strong>
+      <ul>
+        <li>Implemented a VPINN that transforms the PDE into an energy minimization problem based on the variational (weak) form of the equilibrium equation.</li>
+        <li>Utilized Legendre polynomials as test functions and Gauss-Legendre quadrature for numerical integration.</li>
+        <li>Enforced Dirichlet boundary conditions analytically using an Augmented Deep Formulation (ADF), ensuring exact satisfaction of boundary constraints.</li>
+      </ul>
+    </li>
+    <li><strong>Outcome/Impact:</strong> Developed a robust VPINN model that accurately predicts displacement, stress, and strain fields. The model's performance was successfully verified against the known analytical solution for the problem.</li>
+    <li><strong>Repository:</strong> <a href="https://github.com/BBahtiri/Variational-Physics-Informed-Neural-Network-Linear-Elasticity" target="_blank">[Link to Project Repository]</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>5. GNN Force Field for Coarse-Grained Molecular Dynamics</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> To develop a deep learning model capable of predicting atomic forces in coarse-grained molecular dynamics (MD) simulations, creating a fast and accurate surrogate for traditional, computationally expensive force fields.</li>
@@ -99,7 +129,7 @@
 </details>
 
 <details>
-  <summary><strong>4. Crack Detection in Electromechanical Materials using U-Net (Computer Vision)</strong></summary>
+  <summary><strong>6. Crack Detection in Electromechanical Materials using U-Net (Computer Vision)</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Applied deep learning (U-Net with ResNet backbones) for semantic segmentation of crack propagation in materials under electromechanical stress, analyzing phase-field and electrical potential patterns from FEM simulations.</li>
@@ -111,7 +141,7 @@
 </details>
 
 <details>
-  <summary><strong>5. Predictive Maintenance System for Manufacturing using machine learning</strong></summary>
+  <summary><strong>7. Predictive Maintenance System for Manufacturing using machine learning</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Developed a machine learning system to predict 5 different types of equipment failures (TWF, HDF, PWF, OSF, No Failure) in manufacturing environments using sensor data, enabling proactive maintenance.</li>
@@ -123,7 +153,7 @@
 </details>
 
 <details>
-  <summary><strong>6. ABAQUS Multiphysics Diffusion UEL</strong></summary>
+  <summary><strong>8. ABAQUS Multiphysics Diffusion UEL</strong></summary>
   <br>
   <ul>
     <li><strong>Objective:</strong> Implemented a User Element (UEL) for ABAQUS to simulate coupled hydro-mechanical behavior of moisture diffusion in polymer materials, capturing stress-assisted transport mechanisms.</li>
