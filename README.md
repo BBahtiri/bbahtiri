@@ -83,7 +83,7 @@
     <li><strong>Outcome/Impact:</strong> Developed a novel DL model capable of accurately predicting material behavior while adhering to thermodynamic laws, published in Computer Methods in Applied Mechanics and Engineering.</li>
     <li><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.cma.2024.117038" target="_blank">10.1016/j.cma.2024.117038</a></li>
     <li><strong>Repository:</strong> <a href="https://github.com/BBahtiri/Deep-Learning-Constitutive-Model" target="_blank">[Link to Project Repository]</a></li>
-     <li><p align="center"><img src="https://raw.githubusercontent.com/BBahtiri/Deep-Learning-Constitutive-Model/main/pinn.PNG" alt="Thermodynamic Consistent DL Model Architecture" width="500"/></p> </ul>
+     <li><p align="center"><img src="https://raw.githubusercontent.com/BBahtiri/Deep-Learning-Constitutive-Model/main/PINN_Overview.png" alt="Thermodynamic Consistent DL Model Architecture" width="500"/></p> </ul>
 </details>
 
 <details>
