@@ -136,6 +136,7 @@
     <li><strong>Tech Stack:</strong> Python, TensorFlow, Keras, OpenCV, ABAQUS (for data generation).</li>
     <li><strong>Key Contributions:</strong> Implemented a multi-class semantic segmentation pipeline for pixel-level crack detection, utilized transfer learning, and automated hyperparameter tuning. Compared phase-field and electrical potential visualization methods.</li>
     <li><strong>Outcome/Impact:</strong> Achieved high precision (IoU > 0.95) in detecting and classifying cracks/defects, offering a significant improvement over traditional methods.</li>
+    <li><strong>DOI:</strong> <a href="https://doi.org/10.48550/arXiv.2508.07469" target="_blank">10.1016/j.cma.2023.116293</a></li>
     <li><strong>Repository:</strong> <a href="https://github.com/BBahtiri/Computer-Vision-Crack-Detection" target="_blank">Computer-Vision-Crack-Detection</a></li>
     <li><p align="center"><img src="https://raw.githubusercontent.com/BBahtiri/Computer-Vision-Crack-Detection/main/Example.png" alt="Crack Detection Example" width="600"/></p> </ul>
 </details>
